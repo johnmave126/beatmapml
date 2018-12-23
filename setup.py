@@ -18,9 +18,12 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
         'Topic :: Games/Entertainment',
     ],
-    url='https://github.com/johnmave126/beatmap-ml',
+    url='https://github.com/johnmave126/beatmapml',
     install_requires=[
-        'slider',
         'numpy',
+        'opencv3',
+    ],
+    dependency_links=[
+        'https://github.com/llllllllll/slider/tarball/master#egg=package-1.0'
     ]
 )
