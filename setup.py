@@ -22,6 +22,6 @@ setup(
     install_requires=[
         'numpy',
         'opencv-python',
-        'slider @ git+ssh://git@github.com:llllllllll/slider.git@dev#egg=slider-0.1.0'
+        'slider @ git+https://github.com/llllllllll/slider.git@master#egg=slider-0.1.0'
     ]
 )
