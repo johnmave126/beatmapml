@@ -21,7 +21,7 @@ setup(
     url='https://github.com/johnmave126/beatmapml',
     install_requires=[
         'numpy',
-        'opencv3',
+        'opencv-python',
     ],
     dependency_links=[
         'https://github.com/llllllllll/slider/tarball/master#egg=package-1.0'
