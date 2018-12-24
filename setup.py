@@ -22,8 +22,6 @@ setup(
     install_requires=[
         'numpy',
         'opencv-python',
-    ],
-    dependency_links=[
-        'https://github.com/llllllllll/slider/tarball/master#egg=package-1.0'
+        'slider @ git+ssh://git@github.com:llllllllll/slider.git@dev#egg=slider-0.1.0'
     ]
 )
